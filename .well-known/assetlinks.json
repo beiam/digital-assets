@@ -1,0 +1,54 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://api-rcc.be-ys.com"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.beys.wallet.preprod",
+      "sha256_cert_fingerprints": [
+        "F7:B3:F3:0F:01:07:8F:7C:C1:4B:BF:8C:A6:4D:E3:F3:1D:46:F4:7A:55:08:D1:27:5D:5A:D0:40:AA:7D:8B:83",
+        "EE:D1:78:D2:03:A8:53:30:9D:AE:8F:A2:C7:D3:34:6A:58:55:5E:3C:DE:C9:18:34:AB:97:57:DA:E4:A6:3B:42"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.beys.wallet.int",
+      "sha256_cert_fingerprints": [
+        "F7:B3:F3:0F:01:07:8F:7C:C1:4B:BF:8C:A6:4D:E3:F3:1D:46:F4:7A:55:08:D1:27:5D:5A:D0:40:AA:7D:8B:83",
+        "EE:D1:78:D2:03:A8:53:30:9D:AE:8F:A2:C7:D3:34:6A:58:55:5E:3C:DE:C9:18:34:AB:97:57:DA:E4:A6:3B:42"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.beys.wallet.dev",
+      "sha256_cert_fingerprints": [
+        "F7:B3:F3:0F:01:07:8F:7C:C1:4B:BF:8C:A6:4D:E3:F3:1D:46:F4:7A:55:08:D1:27:5D:5A:D0:40:AA:7D:8B:83",
+        "EE:D1:78:D2:03:A8:53:30:9D:AE:8F:A2:C7:D3:34:6A:58:55:5E:3C:DE:C9:18:34:AB:97:57:DA:E4:A6:3B:42"
+      ]
+    }
+  }
+]
